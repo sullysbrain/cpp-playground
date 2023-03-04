@@ -9,6 +9,7 @@
 _private/
 _backups/
 _docs/
+.vscode
 develop-eggs/ 
 dist/ 
 downloads/ 
