@@ -6,14 +6,19 @@
 //
 
 #include <iostream>
+#include "Log.h"
 
-void Log(const char* message);
+#define LOG(x) std::cout << x << std::endl;
 
 int main() {
     
-    Log("hello world");
+    int var = 8;
+    int* ptr = &var;
+    *ptr = 10;
+    
+    LOG(var);
     
     std::cin.get();
     
-    return 0;
+    
 }

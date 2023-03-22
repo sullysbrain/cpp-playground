@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1FBD89E004B05CED83B4AE3E7172393C9B85C87F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1FBD89E004B05CED83B4AE3E7172393C9B85C87F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74FC2FBF-4A8F-4D72-BC1E-E99B925C53AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1FBD89E004B05CED83B4AE3E7172393C9B85C87F" : "cpp-playground\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Playground_CPP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Playground_CPP\/Playground_CPP.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:sullysbrain\/cpp-playground.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FBD89E004B05CED83B4AE3E7172393C9B85C87F"
+    }
+  ]
+}

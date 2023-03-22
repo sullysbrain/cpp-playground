@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3A2DF6A7-5D0C-4861-A11C-4BCF6A48CC26</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4C087025-2DA7-4EE4-B939-8422136050B0</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Playground_CPP-2023.03.05_18-12-01--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Playground_CPP project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Playground_CPP</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Playground_CPP</string>
+			<key>timeStartedRecording</key>
+			<real>699750721.70703197</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Playground_CPP</string>
+			<key>uniqueIdentifier</key>
+			<string>3A2DF6A7-5D0C-4861-A11C-4BCF6A48CC26</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
