@@ -1,6 +1,10 @@
 # Backup files # 
 *.bak 
 
+# Model files
+Playground_CPP/DerivedData/Playground_CPP/Index.noindex/UniDB/Playground_CPP.xcindex/v13/saved/data.mdb
+*.mdb
+
 # AWS User-specific
 .idea/**/aws.xml
 
