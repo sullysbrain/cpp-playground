@@ -20,5 +20,7 @@ int main() {
     
     std::cin.get();
     
+    std::cout << "end of program." << std::endl;
+
     
 }
