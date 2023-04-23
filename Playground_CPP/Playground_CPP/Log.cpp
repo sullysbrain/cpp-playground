@@ -27,10 +27,3 @@ void Log(const char* message)
     std::cout << "Hello, World!" << std::endl;
     
 }
-
-//main loop
-int main()
-{
-    Log("Hello World!");
-}
-

@@ -13,5 +13,6 @@ int main() {
     {
         std::cout << i << " ";
     }
+    std::cout << message << std::endl;
     
 }
