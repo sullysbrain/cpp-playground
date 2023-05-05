@@ -1,18 +1,22 @@
+//
+//  main.cpp
+//  Playground_CPP
+//
+//  Created by Scott Sullivan on 3/3/23.
+//
 
 #include <iostream>
-#include "Log.h"
-
+using namespace std;
 
 int main() {
     
-    int a = 8;
-    a++;
+    const char* names[] = {"Alice", "Bob", "Charlie"};
 
-    const char* message = "Hello, World!";
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < (sizeof(names)/sizeof(names[0])); i++)
     {
-        std::cout << i << " ";
+        cout << names[i] << " : " << &names[i] << endl;
+
+        
     }
-    std::cout << message << std::endl;
-    
+
 }
