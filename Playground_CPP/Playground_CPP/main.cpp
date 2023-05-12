@@ -15,8 +15,18 @@ int main() {
     for (int i = 0; i < (sizeof(names)/sizeof(names[0])); i++)
     {
         cout << names[i] << " : " << &names[i] << endl;
-
         
     }
+
+    int int_var = 8;
+    int* intPtr = &int_var;
+    cout << intPtr << endl;
+    cout << *intPtr << endl;
+    int_var = int_var << 1;
+    cout << int_var << endl;
+    int_var = int_var << 1;
+    cout << int_var << endl;
+     
+
 
 }
