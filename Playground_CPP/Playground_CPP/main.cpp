@@ -1,33 +1,22 @@
+//
+//  main.cpp
+//  Playground_CPP
+//
+//  Created by Scott Sullivan on 3/3/23.
+//
 
 #include <iostream>
-#include "Log.h"
-
+using namespace std;
 
 int main() {
     
-    int a = 8;
-    a++;
+    const char* names[] = {"Alice", "Bob", "Charlie"};
 
-    const char* message = "Hello, World!";
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < (sizeof(names)/sizeof(names[0])); i++)
     {
-        std::cout << i << " ";
+        cout << names[i] << " : " << &names[i] << endl;
+        
     }
     std::cout << message << std::endl;
     
-    // generate a loop sequence that iterates through the first 100 numbers of the fibonacci sequence
-    int fib[100];
-    fib[0] = 0;
-    fib[1] = 1;
-    for (int i = 2; i < 100; i++)
-    {
-        fib[i] = fib[i - 1] + fib[i - 2];
-    }
-    for (int i = 0; i < 100; i++)
-    {
-        std::cout << fib[i] << " ";
-    }
-    std::cout << std::endl;
-    
-
 }
