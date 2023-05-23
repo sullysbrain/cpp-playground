@@ -17,11 +17,6 @@ int main() {
         cout << names[i] << " : " << &names[i] << endl;
         
     }
-<<<<<<< HEAD
-    std::cout << message << std::endl;
-    
-=======
-
     int int_var = 8;
     int* intPtr = &int_var;
     cout << "address: " << &intPtr << endl;
@@ -39,5 +34,4 @@ int main() {
     cout << "address: " << &intPtr << endl;
     cout << "Value: " << int_var << endl;
 
->>>>>>> 3f465e8696c8202f1346de0a0b3be821bcf3149e
 }
