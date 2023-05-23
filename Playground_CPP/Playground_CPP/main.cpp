@@ -17,6 +17,27 @@ int main() {
         cout << names[i] << " : " << &names[i] << endl;
         
     }
+<<<<<<< HEAD
     std::cout << message << std::endl;
     
+=======
+
+    int int_var = 8;
+    int* intPtr = &int_var;
+    cout << "address: " << &intPtr << endl;
+    cout << "raw intPtr " << intPtr << endl;
+    cout << "dereference: " << *intPtr << endl;
+    int_var = int_var << 1;
+    cout << int_var << endl;
+    int_var = int_var << 1;
+    cout << int_var << endl;
+
+    cout << "Pointers" << endl;
+    cout << "int_var: " << int_var << endl;
+    cout << "dereference: " << *intPtr << endl;
+    --int_var;
+    cout << "address: " << &intPtr << endl;
+    cout << "Value: " << int_var << endl;
+
+>>>>>>> 3f465e8696c8202f1346de0a0b3be821bcf3149e
 }
