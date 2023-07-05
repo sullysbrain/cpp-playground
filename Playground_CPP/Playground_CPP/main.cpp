@@ -25,7 +25,7 @@ int main() {
     int_var = int_var << 1;
     cout << int_var << endl;
     int_var = int_var << 1;
-    cout << int_var << endl;
+    cout << int_var << endl; 
 
     cout << "Pointers" << endl;
     cout << "int_var: " << int_var << endl;
