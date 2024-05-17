@@ -16,6 +16,7 @@ _docs/
 .vscode
 develop-eggs/ 
 dist/ 
+bin/
 downloads/ 
 eggs/ 
 .eggs/ 
