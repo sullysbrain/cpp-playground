@@ -8,6 +8,9 @@ Playground_CPP/DerivedData/Playground_CPP/Index.noindex/UniDB/Playground_CPP.xci
 # AWS User-specific
 .idea/**/aws.xml
 
+# Frameworks
+Catch2/
+
 # Distribution / packaging
 .Python build/ 
 _private/
