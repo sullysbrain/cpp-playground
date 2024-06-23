@@ -5,7 +5,8 @@ int value = 42;
 
 bool isThisEven(int x) {
     // value = value + 1;
-    std::cout << "Hello, World!" << std::endl;
+    std::string s = "Hello, World!";
+    std::cout << s << std::endl;
     return x % 2 == 0;
 }
 

@@ -23,7 +23,7 @@ int main() {
 
     int x = 9;
     int y = 42;
-    
+
     bool isEven = (isThisEven(x));
 
 

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Playground_CPP"
+    "\\playground",
+    "\\playground\\src",
+    "\\playground\\tests"
   ],
+  "SelectedNode": "\\playground\\src\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
