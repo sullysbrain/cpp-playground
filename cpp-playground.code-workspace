@@ -5,8 +5,10 @@
 		}
 	],
 	"settings": {
+		"python.terminal.activateEnvironment": false,
 		"files.associations": {
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"bitset": "cpp"
 		}
 	}
 }

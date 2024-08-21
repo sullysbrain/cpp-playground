@@ -1,4 +1,4 @@
-#include "hello.h"
+#include "hello.hpp"
 #include <iostream>
 
 int value = 42;
