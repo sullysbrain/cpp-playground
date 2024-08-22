@@ -2,12 +2,13 @@
 #include <iostream>
 #include <bitset>
 #include <string>
+#include <typeinfo>
 
 void addone(int& y) {
     y = y + 1;
     std::cout << "y add: " << &y <<std::endl;
     std::cout << "y val: " << y <<std::endl;
-    std::cout << "y size: " << sizeof(y) <<std::endl;
+    std::cout << "y size: " << sizeof(&y) <<std::endl;
 
     const int n = 8;
     std::string binary = std::bitset<n>(y).to_string();
@@ -32,7 +33,6 @@ int main() {
     std::cout << "ref: " << ref << std::endl;
 
     std::cout << "x add: " << &x <<std::endl;
-    std::cout << "ref add: " << &ref <<std::endl;
 
 
 }
