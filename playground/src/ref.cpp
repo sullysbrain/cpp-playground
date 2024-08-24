@@ -11,11 +11,19 @@ struct My_obj
     int width = {};
     float deg = {};
     float vel = {};
- 
+
+    void printInfo() {
+        std::cout << "\nObject info" << std::endl;
+        std::cout << "Height: " << height << std::endl;
+        std::cout << "Width: " << width << std::endl;
+        std::cout << "Degree: " << deg << std::endl;
+        std::cout << "Velocity: " << vel << std::endl;
+        std::cout << std::endl;
+    } 
 };
 
 void update_vel(My_obj& obj, float updated_vel) {
-    std::cout << "Updateding obj" << std::endl;
+    std::cout << "Updating obj" << std::endl;
     obj.vel = updated_vel;
 }
 
@@ -44,9 +52,10 @@ int main() {
 
     My_obj myobj;
     myobj.vel = 10.0;
+    myobj.printInfo();
     std::cout << "Speed1: " << myobj.vel <<std::endl;
     update_vel(myobj, 13.0);
     std::cout << "Speed2: " << myobj.vel <<std::endl;
-
+    myobj.printInfo();
 
 }
