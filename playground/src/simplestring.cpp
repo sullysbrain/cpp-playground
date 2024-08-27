@@ -39,17 +39,37 @@ struct SimpleString {
         
 };
 
+struct SimpleStringOwner {
+    SimpleStringOwner(const char* x)
+        : string{ 10 } {
+        if (!string.append_line(x)) {
+            throw std::runtime_error{ "Not enough memory" };
+        }
+        string.print("Constructed");
+    }
+
+    ~SimpleStringOwner() {
+        string.print("About to destroy");
+    }
+
+    private:
+        SimpleString string;
+};
 
 int main() {
-    SimpleString str{ 115 };
-    str.append_line("Starbuck, whaddya hear?");
-    str.append_line("Nothin' but the rain.");
-    str.print("A");
-    str.append_line("Grab your gun and bring the cat in.");
-    str.append_line("Aye-aye sir, coming home.");
-    str.print("B");
-    if (!str.append_line("Galactica!")) {
-        printf("String was not big enough to append another message.");
-    }
+    SimpleStringOwner x{ "x" };
+    printf("x is alive\n");
+
+
+    // SimpleString str{ 10 };
+    // str.append_line("Starbuck, whaddya hear?");
+    // str.append_line("Nothin' but the rain.");
+    // str.print("A");
+    // str.append_line("Grab your gun and bring the cat in.");
+    // str.append_line("Aye-aye sir, coming home.");
+    // str.print("B");
+    // if (!str.append_line("Galactica!")) {
+    //     printf("String was not big enough to append another message.");
+    // }
 
 }
