@@ -40,7 +40,6 @@ void addone(int& y) {
 }
 
 int main() {
-
     std::cout << "Reference app" << std::endl;
 
     int x = 100;

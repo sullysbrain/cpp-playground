@@ -31,14 +31,13 @@ struct SimpleString {
         return true;
     }
 
-
     private:
         size_t max_size;
         size_t length;
-        char* buffer;
-        
+        char* buffer;      
 };
 
+// Added line
 struct SimpleStringOwner {
     SimpleStringOwner(const char* x)
         : string{ 10 } {
